@@ -1,0 +1,39 @@
+body{
+    background:rgb(0, 0, 0);
+    padding: 2%;
+    margin: 5%;
+}
+
+
+i {
+    font-size: 100px;
+    color: #ee2a2a;
+}
+
+iframe{
+
+    width: 80%;
+    height: 90vh;
+    padding: 10px;
+    border-radius: 36px;
+    box-shadow:  -28px -28px 67px #080808,
+    1px 2px 6px #ff0000;
+    cursor: pointer;
+}
+
+body::-webkit-scrollbar{
+background: rgb(98, 59, 59);
+}
+
+body::-webkit-scrollbar-thumb{
+    background: rgb(255, 0, 0);
+    border-radius: 10px;
+    border-left: 3px solid rgb(98, 59, 59);
+    border-right: 2px solid rgb(98, 59, 59);
+    }
+    
+ body::-webkit-scrollbar-track-piece{
+    background: rgb(98, 59, 59);
+    border-radius: 10px;
+    border-right: 2px solid rgb(0, 0, 0);
+    }
